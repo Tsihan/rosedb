@@ -4,7 +4,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/rosedblabs/rosedb/v2"
+	//"github.com/rosedblabs/rosedb/v2"
+	"Users/qihanzhang/Documents/rosedb"
 )
 
 // this file shows how to use the Expiry/TTL feature of rosedb.

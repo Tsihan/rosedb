@@ -1,6 +1,6 @@
 //module github.com/rosedblabs/rosedb/v2
 module Users/qihanzhang/Documents/rosedb
-go 1.19
+go 1.22
 
 require (
 	github.com/google/btree v1.1.2

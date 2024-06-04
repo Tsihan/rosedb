@@ -1,9 +1,9 @@
 package main
 
 import (
+	"Users/qihanzhang/Documents/rosedb"
 	"fmt"
-
-	"github.com/rosedblabs/rosedb/v2"
+	//"github.com/rosedblabs/rosedb/v2"
 )
 
 // this file shows how to use the iterate operations of rosedb

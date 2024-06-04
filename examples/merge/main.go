@@ -1,8 +1,10 @@
 package main
 
 import (
-	"github.com/rosedblabs/rosedb/v2"
-	"github.com/rosedblabs/rosedb/v2/utils"
+	//"github.com/rosedblabs/rosedb/v2"
+	//"github.com/rosedblabs/rosedb/v2/utils"
+	"Users/qihanzhang/Documents/rosedb"
+	"Users/qihanzhang/Documents/rosedb/utils"
 )
 
 // this file shows how to use the Merge feature of rosedb.

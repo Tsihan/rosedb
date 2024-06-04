@@ -1,13 +1,15 @@
 package benchmark
 
 import (
+	"Users/qihanzhang/Documents/rosedb"
+	"Users/qihanzhang/Documents/rosedb/utils"
 	"errors"
 	"math/rand"
 	"os"
 	"testing"
 
-	"github.com/rosedblabs/rosedb/v2"
-	"github.com/rosedblabs/rosedb/v2/utils"
+	//"github.com/rosedblabs/rosedb/v2"
+	//"github.com/rosedblabs/rosedb/v2/utils"
 	"github.com/stretchr/testify/assert"
 )
 
