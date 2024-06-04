@@ -1,5 +1,5 @@
-module github.com/rosedblabs/rosedb/v2
-
+//module github.com/rosedblabs/rosedb/v2
+module Users/qihanzhang/Documents/rosedb
 go 1.19
 
 require (

@@ -3,7 +3,8 @@ package rosedb
 import (
 	"bytes"
 	"fmt"
-	"github.com/rosedblabs/rosedb/v2/utils"
+	//"github.com/rosedblabs/rosedb/v2/utils"
+	"Users/qihanzhang/Documents/rosedb/utils"
 	"sync"
 	"time"
 

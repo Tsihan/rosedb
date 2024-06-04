@@ -1,6 +1,8 @@
 package rosedb
 
 import (
+	"Users/qihanzhang/Documents/rosedb/index"
+	"Users/qihanzhang/Documents/rosedb/utils"
 	"context"
 	"errors"
 	"fmt"
@@ -14,8 +16,9 @@ import (
 	"github.com/bwmarrin/snowflake"
 	"github.com/gofrs/flock"
 	"github.com/robfig/cron/v3"
-	"github.com/rosedblabs/rosedb/v2/index"
-	"github.com/rosedblabs/rosedb/v2/utils"
+	//"github.com/rosedblabs/rosedb/v2/index"
+	//"github.com/rosedblabs/rosedb/v2/utils"
+
 	"github.com/rosedblabs/wal"
 )
 

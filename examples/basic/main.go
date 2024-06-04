@@ -1,10 +1,10 @@
 package main
 
 import (
+	"Users/qihanzhang/Documents/rosedb"
 	"os"
 	"runtime"
-
-	"github.com/rosedblabs/rosedb/v2"
+	//"github.com/rosedblabs/rosedb/v2"
 )
 
 // this file shows how to use the basic operations of rosedb
@@ -52,4 +52,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+
+	println("pass basic test!")
 }
