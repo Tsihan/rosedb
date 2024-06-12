@@ -6,6 +6,7 @@ require (
 	github.com/google/btree v1.1.2
 	github.com/rosedblabs/wal v1.3.6-0.20230924022528-3202245af020
 	github.com/valyala/bytebufferpool v1.0.0
+	github.com/plar/go-adaptive-radix-tree v1.0.5
 )
 
 require (

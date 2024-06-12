@@ -47,16 +47,20 @@ type Indexer interface {
 type IndexerType = byte
 
 const (
-	BTree IndexerType = iota
+	BTree   IndexerType = iota
+	ArtTree IndexerType = iota
 )
 
 // Change the index type as you implement.
-var indexType = BTree
+// var indexType = BTree
+var indexType = ArtTree
 
 func NewIndexer() Indexer {
 	switch indexType {
 	case BTree:
 		return newBTree()
+	case ArtTree:
+		return newARTTree()
 	default:
 		panic("unexpected index type")
 	}
