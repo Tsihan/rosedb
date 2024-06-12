@@ -54,6 +54,7 @@ func (mt *MemoryARTTree) Delete(key []byte) (*wal.ChunkPosition, bool) {
 }
 
 func (mt *MemoryARTTree) Size() int {
+	println("MemoryARTTree.Size()")
 	return mt.tree.Size()
 }
 

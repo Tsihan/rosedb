@@ -40,6 +40,12 @@ func main() {
 		panic(err)
 	}
 
+	// put more keys
+	for i := 0; i < 10000; i++ {
+		_ = db.Put([]byte(string(i)), []byte("rosedb"))
+
+	}
+
 	// get a key
 	val, err := db.Get([]byte("name"))
 	if err != nil {
@@ -52,6 +58,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	println("The size of db's index is: ", db.IndexSize(), "entries")
 
 	println("pass basic test!")
 }

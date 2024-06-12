@@ -68,6 +68,11 @@ type Stat struct {
 	DiskSize int64
 }
 
+// qihan: add this one. IndexSize returns the size of the index from the DB instance.
+func (db *DB) IndexSize() int {
+	return db.index.Size()
+}
+
 // Open a database with the specified options.
 // If the database directory does not exist, it will be created automatically.
 //
