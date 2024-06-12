@@ -1,3 +1,4 @@
+We support the ART index in Rosedb. Currently, we haven't supported iteration behaviors like Ascend, descend, etc.
 <div align="center">
 <strong>
 <samp>
